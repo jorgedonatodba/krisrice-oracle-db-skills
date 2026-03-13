@@ -1,6 +1,6 @@
 # Oracle DB Skills
 
-Oracle DB Skills is a curated library of 100+ practical, documentation-backed guides for working with Oracle Database, organized by domain: SQL and PL/SQL development, performance tuning, security, administration, monitoring, architecture, DevOps, migrations, SQLcl, ORDS, and Oracle-specific features. Each guide includes actionable examples, best practices, common pitfalls, sources, and explicit Oracle version compatibility notes for 19c and 26ai.
+Oracle DB Skills is a curated library of 129 practical, documentation-backed guides for working with Oracle Database and Oracle Container Registry database-category images, organized by domain: SQL and PL/SQL development, performance tuning, security, administration, monitoring, architecture, DevOps, migrations, SQLcl, ORDS, Oracle-specific features, and container-image repositories. The guides include actionable examples, best practices, common pitfalls, sources, and Oracle version compatibility notes where relevant.
 
 ## Version Coverage Standard
 
@@ -26,7 +26,7 @@ Oracle DB Skills is a curated library of 100+ practical, documentation-backed gu
 | [Performance & Tuning](#performance--tuning) | 7 | `skills/performance/` |
 | [Application Development](#application-development) | 14 | `skills/appdev/` |
 | [Security](#security) | 6 | `skills/security/` |
-| [Administration](#administration) | 6 | `skills/admin/` |
+| [Administration](#administration) | 5 | `skills/admin/` |
 | [Monitoring & Diagnostics](#monitoring--diagnostics) | 5 | `skills/monitoring/` |
 | [Architecture & Infrastructure](#architecture--infrastructure) | 6 | `skills/architecture/` |
 | [DevOps & CI/CD](#devops--cicd) | 5 | `skills/devops/` |
@@ -35,6 +35,7 @@ Oracle DB Skills is a curated library of 100+ practical, documentation-backed gu
 | [Oracle-Specific Features](#oracle-specific-features) | 6 | `skills/features/` |
 | [SQLcl](#sqlcl) | 8 | `skills/sqlcl/` |
 | [ORDS (Oracle REST Data Services)](#ords-oracle-rest-data-services) | 10 | `skills/ords/` |
+| [Container Images](#container-images) | 21 | `skills/containers/` |
 
 ---
 
@@ -272,6 +273,36 @@ Oracle DB Skills is a curated library of 100+ practical, documentation-backed gu
 
 ---
 
+## Container Images
+
+`skills/containers/`
+
+| File | Description |
+|------|-------------|
+| `cman.md` | Oracle Connection Manager container repository, proxying client connections and OCR pull guidance |
+| `enterprise.md` | Oracle AI Database Server Release 26ai Enterprise Edition container image |
+| `graph-quickstart.md` | Property Graph quickstart image built on Oracle AI Database 26ai Free |
+| `gsm.md` | Oracle Global Service Manager container for Globally Distributed Database deployments |
+| `instantclient.md` | Oracle Instant Client container image with Basic, SDK, and SQL*Plus packages |
+| `microtx-ee-console.md` | Oracle Transaction Manager for Microservices Console container image |
+| `microtx-ee-coordinator.md` | Oracle Transaction Manager for Microservices Enterprise Edition coordinator image |
+| `rac.md` | Oracle Real Application Clusters container image guidance for Podman deployments |
+| `private-ai.md` | Oracle Private AI Services container image, setup modes, and OCR version notes |
+| `adb-free.md` | Oracle Autonomous Database Free container image with ADW/ATP workload guidance |
+| `express.md` | Oracle Database Express Edition (XE) container image |
+| `free.md` | Oracle AI Database 26ai Free container image |
+| `observability-exporter.md` | Unified observability exporter image for Oracle Database metrics, logs, and tracing |
+| `operator.md` | Oracle Database Operator for Kubernetes image repository |
+| `ords.md` | Oracle REST Data Services container image repository |
+| `ords-developer.md` | Deprecated ORDS Developer image repository with migration note to `ords` |
+| `otmm.md` | Oracle Transaction Manager for Microservices Free image repository |
+| `sqlcl.md` | Oracle SQL Command Line (SQLcl) container image repository |
+| `enterprise_ru.md` | Oracle Database Enterprise Edition CPU release-update image repository |
+| `gsm_ru.md` | Oracle Global Service Manager CPU repository stream |
+| `rac_ru.md` | Oracle RAC release-update container image repository |
+
+---
+
 ## Structure
 
 ```
@@ -282,6 +313,7 @@ oracle-db-skills/
     ├── admin/               # Administration
     ├── appdev/              # Application Development
     ├── architecture/        # Architecture & Infrastructure
+    ├── containers/          # OCR Database-category container repositories
     ├── design/              # Database Design & Modeling
     ├── devops/              # DevOps & CI/CD
     ├── features/            # Oracle-Specific Features

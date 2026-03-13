@@ -1,6 +1,6 @@
 # Oracle DB Skills — Agent Instructions
 
-This repository is a collection of 102 standalone reference guides for Oracle Database. Each file covers one topic with explanations, practical examples, best practices, and common mistakes.
+This repository is a collection of 129 standalone reference guides for Oracle Database and Oracle Container Registry database-category images. Each file covers one topic with explanations, practical examples, best practices, and common mistakes.
 
 ## How to Use This Collection
 
@@ -15,6 +15,7 @@ skills/
 ├── admin/          Database administration (backup, recovery, users, redo/undo)
 ├── appdev/         Application development (JSON, XML, spatial, text, pooling)
 ├── architecture/   Infrastructure (RAC, Multitenant, Exadata, In-Memory, OCI)
+├── containers/     OCR Database-category container repositories
 ├── design/         Schema design (ERD, modeling, partitioning, tablespaces)
 ├── devops/         CI/CD and DevOps (migrations, EBR, testing, version control)
 ├── features/       Oracle features (AQ, Scheduler, MVs, DBLinks, APEX)
@@ -46,6 +47,7 @@ skills/
 | Privileges, VPD, TDE, encryption, auditing, network security | `skills/security/` |
 | SQL patterns, window functions, CTEs, dynamic SQL, injection | `skills/sql-dev/` |
 | SQLcl commands, scripting, Liquibase CLI, MCP server, CI/CD | `skills/sqlcl/` |
+| Oracle Container Registry images, container pull commands, tags, and OCR repository selection | `skills/containers/` |
 
 ## Key Skills to Know
 
@@ -54,3 +56,4 @@ skills/
 - **`skills/performance/explain-plan.md`** — foundation for all SQL performance work
 - **`skills/plsql/plsql-package-design.md`** — foundation for PL/SQL architecture questions
 - **`skills/devops/schema-migrations.md`** — Liquibase/Flyway with Oracle in CI/CD pipelines
+- **`skills/containers/private-ai.md`** — OCR repository guidance for the Oracle Private AI Services container
